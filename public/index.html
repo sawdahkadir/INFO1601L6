@@ -7,18 +7,16 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <h1>My Page</h1>
-
-    <input type="button" id="alertBtn" value="alert" onclick="alertFun()"/>
-    <input type="button" value="confirm" onclick="confirmFun()"/>
-    <input type="button" value="prompt" onclick="promptFun()"/>
-
-    <span id="result"></span>
+    <img id="myId" src="https://placecage.lucidinternets.com/200/300" alt="" onload="loaded()">
 
     <script>
+      // const img = document.querySelector('#myId')
+      // img.addEventListener('load', loaded);
 
+      function loaded(){
+        console.log('img loaded');
+      }
 
-    </script>
-    <script src="script.js"></script>
+        </script>
   </body>
 </html>
